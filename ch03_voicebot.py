@@ -9,7 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.getenv("OPENAI_API_KEY")
+# api_key = os.getenv("OPENAI_API_KEY")
+api_key = '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'
 client = OpenAI(api_key=api_key)
 
 if "chat" not in st.session_state:
